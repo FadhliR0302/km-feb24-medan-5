@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dashboard Team 5 Medan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD BIKES SALES IN EUROPE BY TEAM 5</p>
+        </div>
+
+        <div class="main-cards">
+
+          <div class="card">
+            <div class="card-inner">
+              <label for="country-select" class="text-primary">COUNTRY</label>
+            </div>
+            <select id="country-select" class="text-primary font-weight-bold">
+              <option value="United states">United states</option>
+              <option value="Australia">Australia</option>
+              <option value="United kingdom">United kingdom</option>
+              <option value="Germany">Germany</option>
+              <option value="France">France</option>
+              <option value="Canada">Canada</option>
+            </select>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <label for="date-range-input" class="text-primary">Range Date</label>
+            </div>
+            <input type="date" id="date-range-input" class="text-primary font-weight-bold">
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">PROFIT</p>
+            </div>
+            <span class="text-primary font-weight-bold">41.9M</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">REVENUE</p>
+            </div>
+            <span class="text-primary font-weight-bold">94.7M</span>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <p class="text-primary">ORDER QUANTITY</p>
+            </div>
+            <span class="text-primary font-weight-bold">1.3M</span>
+          </div>
+
+        </div>
+
+        <div class="charts">
+
+          <div class="charts-card">
+            <p class="chart-title">PRODUK PALING BANYAK YANG DI BELI TIAP GENDER</p>
+            <div id="bar-chart"></div>
+          </div>
+
+          <div class="charts-card">
+            <p class="chart-title">PROFIT PETA</p>
+            <div id="area-chart"></div>
+          </div>
+
+          <div class="charts-card">
+            <p class="chart-title">USIA PEMBELI DENGAN JUMLAH PESANAN TERBANYAK</p>
+            <div id="bar-chart2"></div>
+          </div>
+
+          <div class="charts-card">
+            <p class="chart-title">PROFIT DI BERBAGAI NEGARA</p>
+            <div id="bar-chart3"></div>
+          </div>
+
+          <div class="charts-card">
+            <p class="chart-title">GRAFIK</p>
+            <div id="bar-chart3"></div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+  
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
