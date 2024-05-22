@@ -213,6 +213,7 @@ body {
 }
 
 /* Extra Small <= 576px */
+/* Iphone 12 Pro, Iphone SE*/
 @media screen and (max-width: 576px) {
   .header-left {
     display: none;
@@ -220,5 +221,24 @@ body {
   .charts {
     grid-template-columns: 1fr;
     margin-top: 30px;
+  }
+  .main-cards {
+    flex-direction: column;
+  }
+  .cardSatu{
+    width: 33%;
+  }
+  .cardSatu > .card{
+    font-size: 18px; 
+  }
+  .cardDua{
+    flex-direction: column;
+    width: 86%;
+  }
+  .cardDua > .card{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
   }
 }

@@ -1,4 +1,11 @@
 // ---------- CHARTS ----------
+async function loadJSON() {
+  const response = await fetch("../bikes.json");
+  const movies = await response.json();
+  console.log(movies);
+}
+
+// loadJSON()
 
 // BAR CHART
 const barChartOptions = {
