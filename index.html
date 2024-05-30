@@ -26,11 +26,12 @@
               <div class="card-inner">
                 <label for="country-select" class="text-primary">COUNTRY</label>
               </div>
-              <select id="country-select" class="text-primary font-weight-bold">
+              <select id="country-select" class="text-primary font-weight-bold" onchange="displayData()">
                 <option value="" disabled selected hidden>Please Choose...</option>
-                <option value="United states">United states</option>
+                <option value="All">All Country</option>
+                <option value="United States">United states</option>
                 <option value="Australia">Australia</option>
-                <option value="United kingdom">United kingdom</option>
+                <option value="United Kingdom">United kingdom</option>
                 <option value="Germany">Germany</option>
                 <option value="France">France</option>
                 <option value="Canada">Canada</option>
@@ -41,7 +42,10 @@
               <div class="card-inner">
                 <label for="date-range-input" class="text-primary">Range Date</label>
               </div>
+              <label for="" id="label-input">from</label>
               <input type="date" id="date-range-input" class="text-primary font-weight-bold">
+              <label for="" id="label-input">to</label>
+              <input type="date" id="date-range-input2" class="text-primary font-weight-bold">
             </div>
           </div>
 

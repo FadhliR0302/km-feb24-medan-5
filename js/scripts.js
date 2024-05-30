@@ -12,30 +12,39 @@ async function bikes() {
 }
 
 
-function filtering(countryData) {
-  return countryData.COUNTRY == "United States"
-}
+// function filtering(countryData) {
+//   return countryData.COUNTRY == "United States"
+// }
 //&& (countryData.DATE >= new Date("01-01-2022") && countryData.DATE <= "02-02-2022")
 
 async function displayData() {
   const loadData = await bikes()
+  let select = document.getElementById('country-select').value;
+  function filtering(countryData) {
+    return countryData.COUNTRY == select
+  }
+
+  
   let filtered = loadData.filter(filtering)
   let groupedBy = Object.groupBy(filtered, d => d.COUNTRY)
- 
   
-  let country1 =  groupedBy['United States']
+  console.log(filtered);
+  console.log(groupedBy);
+  
+  let country1 =  groupedBy[select]
   let count = 0
   for(i = 0; i < country1.length; i++){
     count += country1[i].PROFIT
 
   }
+  console.log(count)
 
   let dataAppear = loadData.map((obj) =>{
     return obj.PRODUCT
   })
 
 }
-displayData()
+
 
 
 // Function untuk create chart nya
