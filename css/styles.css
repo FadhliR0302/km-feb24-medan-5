@@ -72,7 +72,24 @@ body {
   display: flex;
   gap: 20px;
   margin: 20px 0;
+  flex-direction: row;
 }
+
+/* pembagian card pada navbar */
+.cardSatu{
+  display: flex;
+  gap: 20px;
+  width: 60%;
+  /* width: 100%; */
+  flex-direction: row;
+}
+.cardDua{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-direction: row;
+}
+/*  */
 
 .card {
   display: flex;
@@ -182,9 +199,11 @@ body {
 /* Small <= 768px */
 @media screen and (max-width: 768px) {
   .main-cards {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin-bottom: 0;
+    flex-direction: column;
+  }
+
+  .cardSatu{
+    width: 100%;
   }
 
   .charts {
@@ -194,6 +213,7 @@ body {
 }
 
 /* Extra Small <= 576px */
+/* Iphone 12 Pro, Iphone SE*/
 @media screen and (max-width: 576px) {
   .header-left {
     display: none;
@@ -201,5 +221,24 @@ body {
   .charts {
     grid-template-columns: 1fr;
     margin-top: 30px;
+  }
+  .main-cards {
+    flex-direction: column;
+  }
+  .cardSatu{
+    width: 33%;
+  }
+  .cardSatu > .card{
+    font-size: 18px; 
+  }
+  .cardDua{
+    flex-direction: column;
+    width: 86%;
+  }
+  .cardDua > .card{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
   }
 }

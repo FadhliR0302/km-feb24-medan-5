@@ -1,0 +1,102 @@
+[
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Patch Kit/8 Patches",
+    "ORDER_QUANTITY": 971
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Water Bottle - 30 oz.",
+    "ORDER_QUANTITY": 800
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Water Bottle - 30 oz.",
+    "ORDER_QUANTITY": 694
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Patch Kit/8 Patches",
+    "ORDER_QUANTITY": 641
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "AWC Logo Cap",
+    "ORDER_QUANTITY": 445
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Touring Tire Tube",
+    "ORDER_QUANTITY": 365
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Sport-100 Helmet, Red",
+    "ORDER_QUANTITY": 357
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Sport-100 Helmet, Black",
+    "ORDER_QUANTITY": 322
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "AWC Logo Cap",
+    "ORDER_QUANTITY": 300
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Mountain Tire Tube",
+    "ORDER_QUANTITY": 275
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Sport-100 Helmet, Blue",
+    "ORDER_QUANTITY": 273
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Mountain Tire Tube",
+    "ORDER_QUANTITY": 267
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Road Tire Tube",
+    "ORDER_QUANTITY": 263
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Road Tire Tube",
+    "ORDER_QUANTITY": 261
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Fender Set - Mountain",
+    "ORDER_QUANTITY": 256
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Sport-100 Helmet, Black",
+    "ORDER_QUANTITY": 246
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Fender Set - Mountain",
+    "ORDER_QUANTITY": 235
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Sport-100 Helmet, Red",
+    "ORDER_QUANTITY": 221
+  },
+  {
+    "GENDER": "MALE",
+    "PRODUCT": "Sport-100 Helmet, Blue",
+    "ORDER_QUANTITY": 163
+  },
+  {
+    "GENDER": "FEMALE",
+    "PRODUCT": "Touring Tire Tube",
+    "ORDER_QUANTITY": 142
+  }
+]
